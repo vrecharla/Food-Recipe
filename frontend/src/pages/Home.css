@@ -1,0 +1,45 @@
+div {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #ffa500;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5em;
+    }
+    
+    p {
+      font-size: 1em;
+    }
+  
+    button {
+      padding: 8px 16px;
+      font-size: 0.9em;
+    }
+  }
+  
